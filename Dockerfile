@@ -6,11 +6,6 @@ RUN mkdir /rpmbuild
 RUN mkdir /rpmbuild/{BUILD,SOURCES,SPECS,RPMS,SRPMS}
 RUN mkdir /build/
 
-# tmp
-WORKDIR /build
-ADD server_utility_command_line_utility_2.0.zip /build/
-RUN unzip server_utility_command_line_utility_2.0.zip
-
 ADD rpmmacros /root/.rpmmacros
 ADD server_utility_command_line_utility_2.0.zip /rpmbuild/SOURCES
 ADD gbt.spec /rpmbuild/SPECS
