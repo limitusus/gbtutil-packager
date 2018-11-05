@@ -3,7 +3,7 @@ Version: 2.0.12
 Release: 0%{?dist}
 Summary: GbtUtility command line utility
 Group: Utility/Hardware
-License: Proprietary
+License: Unknown
 URL: https://www.gigabyte.com/
 BuildArch: x86_64
 Source0: server_utility_command_line_utility_2.0.zip
